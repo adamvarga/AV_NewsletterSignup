@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AV_NewsletterSignup>
+            <active>true</active>
+            <codePool>local</codePool>
+        </AV_NewsletterSignup>
+    </modules>
+    <frontend>
+        <translate>
+            <modules>
+                <AV_NewsletterSignup>
+                    <files>
+                        <adminhtml>AV_NewsletterSignup.csv</adminhtml>
+                    </files>
+                </AV_NewsletterSignup>
+            </modules>
+        </translate>
+    </frontend>
+</config>

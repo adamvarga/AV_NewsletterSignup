@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/av/newslettersignup/newsletter.css</name>
+            </action>
+        </reference>
+        <reference name="footer">
+            <block type="newsletter/subscribe" name="newsletter.signup" as="newsletterSignup" template="newsletter/subscribe_signup.phtml"/>
+        </reference>
+    </default>
+</layout>

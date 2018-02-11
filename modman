@@ -1,0 +1,9 @@
+app/code/local/AV/NewsletterSignup/                                                 app/code/local/AV/NewsletterSignup/  
+app/etc/modules/AV_NewsletterSignup.xml                                             app/etc/modules/AV_NewsletterSignup.xml 
+app/locale/de_DE/AV_NewsletterSignup.csv                                            app/locale/de_DE/AV_NewsletterSignup.csv
+app/design/frontend/base/default/layout/newslettersign.xml                          app/design/frontend/base/default/layout/newslettersign.xml
+app/design/frontend/base/default/template/newsletter/subscribe_signup.phtml         app/design/frontend/base/default/template/newsletter/subscribe_signup.phtml
+skin/frontend/base/default/css/av/newslettersignup/newsletter.css                   skin/frontend/base/default/css/av/newslettersignup/newsletter.css
+
+
+

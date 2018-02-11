@@ -1,0 +1,15 @@
+#subscribe-signup {
+    position: fixed;
+    /*left: -190px;*/
+    left: 0px;  
+    top: 100px;
+    z-index: 9999;
+    -moz-transition: left 1s;
+    -ms-transition: left 1s;
+    -o-transition: left 1s;
+    -webkit-transition: left 1s;
+    transition: left 1s;
+}
+#subscribe-signup:hover {
+    left: 0px;
+}
