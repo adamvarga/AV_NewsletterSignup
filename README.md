@@ -1,6 +1,6 @@
 AV_NewsletterSignup
 =====================
-- Magento Standard Newsletter improvement with extra field (firstname, lastnane, gender)
+- Magento Standard Newsletter improvement with extra field (firstname, lastname, gender)
 - Freely shaping in newsletter.css (Its default location on the left with base newsletter style)
 
 Installation Instructions
