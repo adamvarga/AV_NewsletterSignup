@@ -20,11 +20,6 @@
             <av_newslettersignup>
                 <class>AV_NewsletterSignup_Block</class>
             </av_newslettersignup>
-            <adminhtml>
-                <rewrite> 
-                    <newsletter_subscriber_grid>AV_NewsletterSignup_Adminhtml_Block_Newsletter_Subscriber_Grid</newsletter_subscriber_grid>
-                </rewrite>
-            </adminhtml>
         </blocks>
         <helpers>
             <av_newslettersignup>
@@ -72,4 +67,17 @@
             </updates>
         </layout>
     </frontend>
+    <adminhtml>
+    <events>
+        <core_layout_block_create_after>
+            <observers>
+                <av_newslettersignup_after_block>
+                    <type>singleton</type>
+                    <class>AV_NewsletterSignup_Model_Admingrid</class>
+                    <method>blockCreateAfter</method>
+                </av_newslettersignup_after_block>
+            </observers>
+        </core_layout_block_create_after>
+    </events>
+    </adminhtml>
 </config>
